@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+}
+@media screen and (min-width: 320px){
+    main{ 
+    width: 97%;
+    height: auto;
+    background-color: blueviolet;
+    border-radius: 15%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.is-titulo-padrao{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 35px;
+    color: rgb(255, 255, 255);
+    
+}
+.is-titulo-padrao1{
+display: none;
+}
+/*---------------atalhos ----------*/
+
+.is-divCard{
+    width: 90%;
+    height: 175px;
+    background-color:rgb(147,112,219);
+    margin: 40px auto 100px;
+    border-radius: 7px ;
+}
+.is-tituloCard{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  font-size: 25px;
+  color:rgb(215, 215, 215);
+  text-shadow: 0px 0px 5px  rgb(0, 0, 0)
+}
+.is-subTituloCard{
+    font-size: 17px;
+    margin: 7px;
+}
+.is-texto-Card{
+    margin: 5px;
+}
+}
+.is-textoCard{
+   
+    width: 95%;
+    
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    display: block;
+    position: relative;
+}
+.divInput{
+    width: 70%;
+    margin: 7px auto;
+    background-color: blueviolet;
+}
+.isBotao{
+    width: 25%;
+    font-size: 12px;
+    margin: 0 7px ;
+    float: left;
+    position: relative;
+    
+    padding: 1px;
+    border-radius: 2px;
+    background-color: rgb(80, 179, 212);
+}
+.isBotao:hover{
+    background-color: rgb(0, 237, 158);
+}
+.is-resposta{
+    height:37px;
+    padding: 5px;
+    
+}
+
+@media screen and (min-width: 576px ){
+    main{
+        border-radius: 15%;
+    }  
+
+.is-titulo-padrao{
+    font-size: 40px;
+}
+
+.is-divCard{
+    width: 80%;
+    height: 180px;
+}
+.is-textoCard{
+    font-size: 20px;
+}
+.is-resposta{
+    height: 23px;
+}
+}
+
+
+
+@media screen and (min-width: 768px){
+   
+    .is-titulo-padrao{
+        font-size: 55px;
+    }
+    .is-divCard{
+        width: 90%;
+        height: 220px;
+        margin-top: 45px;
+    }
+    .is-tituloCard{
+        font-size: 33px
+    }
+    .is-subTituloCard{
+        font-size: 25px;
+    }
+    .is-textoCard{
+        font-size: 23px;
+        margin: 9px;
+    }
+    .divInput{
+        margin-left:155px;
+   }
+    .isBotao{
+        font-size: 18px;
+    }
+    .is-resposta{
+        height: 37px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px){
+    .is-titulo-padrao{
+        display: none;
+    }
+    .is-titulo-padrao1{
+        display:table;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        padding-top: 45px;
+        margin: 0 auto;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 7px  rgb(0, 0, 0)
+        }
+        .divInput{
+            margin-left:200px;
+       }
+}
+
+
+
+
+@media screen and (min-width:1200px){
+    main{
+        width: 100%;
+    
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+     width: 100%;
+    }
+    .is-titulo-padrao1{
+        font-size: 30px;
+         padding-top: 15px;
+    }
+   .is-divCard{
+    width: 90%;
+    height: 170px;
+    margin: 40px auto;
+   }
+   .is-tituloCard{
+    font-size: 25px;
+   }
+   .is-subTituloCard{
+    font-size: 20px;
+   }
+   .is-texto-Card{
+    font-size: 15px;
+    margin-right: 50px;
+   }
+   .divInput{
+    margin-left: 80px;
+   }
+   .isBotao{
+    font-size: 12px;
+   }
+   .is-resposta{
+    width: 80%;
+    height: 20px;
+    margin-top: 40px;
+    font-size: 15px;
+   }
+
+}  

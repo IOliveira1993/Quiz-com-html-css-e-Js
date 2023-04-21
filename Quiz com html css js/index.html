@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+    <title>Teste de conhecimento</title>
+    
+</head>
+
+
+
+
+
+<body>
+<main>
+    <!------------C A R D     0 1 ---------------C A R D     0 1-------------------------------------->
+    <h1 class="is-titulo-padrao is-tituloTop">Resolva o Quiz</h1>
+    <div class="is-titulo2"><h1 class="is-titulo-padrao1">Com base em seu conhecimento <br> resolva as questões a seguir </h1></div>
+   <div class="container">
+    <div class="is-divCard">
+        <h2 class="is-tituloCard">CSS-3</h2>
+        <div class="is-textoCard">
+            <h4 class="is-subTituloCard">Qual opção não esta correta?</h4> 
+            <p class="is-texto-Card"> <strong>(A)</strong> width; 100%:</p>
+            <p class="is-texto-Card"> <strong>(b)</strong> heigth: 100vh; </p>
+            <p class="is-texto-Card"> <strong>(c)</strong> background-color:</p>
+           
+            <div class="divInput">
+               <input type="button" value="A" onclick="errado()" class="isBotao">
+               <input type="button" value="B" onclick="errado()" class="isBotao">
+                <input type="button" value="C" onclick="clicou()" class="isBotao " >
+                
+           </div>
+           <div class="is-resposta is-divCard" id="resposta"> <strong>Resposta:</strong></div>  
+        </div>
+        
+        <script>
+             var resposta = document.getElementById('resposta')
+           function errado(){
+            var res = (errado.value)
+            resposta.innerHTML = '<strong>Resposta:</strong> Que pena, opção errada!'
+           }
+            function clicou(){
+               var res = (resposta.value)
+                resposta.innerHTML = '<strong>Resposta:</strong> Parabéns, voce acertou!'
+            }
+        </script>
+        
+
+    </div>
+
+<!---------------------    C A R D    0 2 -------------  C A R D    0 2--------------------->
+    
+    <div class="is-divCard">
+        <h2 class="is-tituloCard">Java Script</h2>
+        <div class="is-textoCard">
+            <h4 class="is-subTituloCard">Qual opção errada? <strong>id='master'</strong></h4> 
+            <p class="is-texto-Card"> <strong>(A)</strong> document.querySelector=('id')</p>
+            <p class="is-texto-Card"> <strong>(b)</strong> onclick="click()" </p>
+            <p class="is-texto-Card"> <strong>(c)</strong> ...getElementById=('master')</p>
+           
+            <div class="divInput">
+               <input type="button" value="A"  onclick="clicou1()" class="isBotao">
+               <input type="button" value="B" onclick="errado1()" class="isBotao">
+                <input type="button" value="C" onclick="errado1()" class="isBotao" >
+           </div>
+           <div class="is-resposta is-divCard" id="resposta1"> <strong>Resposta:</strong></div>    
+        </div>
+        
+        <script>
+             var resposta1 = document.getElementById('resposta1')
+           function errado1(){
+            var res = (errado.value)
+            resposta1.innerHTML = '<strong>Resposta:</strong> Que pena, opção errada!'
+           }
+            function clicou1(){
+               var res = (resposta1.value)
+                resposta1.innerHTML = '<strong>Resposta:</strong> Parabéns, voce acertou!'
+            }
+        </script>
+        
+
+    </div>
+
+
+<!---------------------    C A R D    0 3 -------------  C A R D    0 3--------------------->
+
+
+    <div class="is-divCard">
+        <h2 class="is-tituloCard">HTML:5 </h2>
+        <div class="is-textoCard">
+            <h4 class="is-subTituloCard">Qual opção invalida?</h4> 
+            <p class="is-texto-Card"> <strong>(A)</strong> meta charset="UTF-8"</p>
+            <p class="is-texto-Card"> <strong>(b)</strong>  class="meta" == #meta </p>
+            <p class="is-texto-Card"> <strong>(c)</strong> http-equiv="X-UA-Compatible"</p>
+           
+            <div class="divInput">
+               <input type="button" value="A" onclick="errado2()" class="isBotao">
+               <input type="button" value="B" onclick="clicou2()" class="isBotao">
+                <input type="button" value="C" onclick="errado2()" class="isBotao" >
+           </div>
+           <div class="is-resposta is-divCard" id="resposta2"> <strong>Resposta:</strong></div>    
+        </div>
+        
+        <script>
+             var resposta2 = document.getElementById('resposta2')
+           function errado2(){
+            var res = (errado.value)
+            resposta2.innerHTML = '<strong>Resposta:</strong> Que pena, opção errada!'
+           }
+            function clicou2(){
+               var res = (resposta2.value)
+                resposta2.innerHTML = '<strong>Resposta:</strong> Parabéns, voce acertou!'
+            }
+        </script>
+        
+
+    </div>
+
+
+<!---------------------    C A R D    0 4 -------------  C A R D    0 4--------------------->
+
+    <div class="is-divCard">
+        <h2 class="is-tituloCard">GRID SYSTEM</h2>
+        <div class="is-textoCard">
+            <h4 class="is-subTituloCard">Qual opção não é valida?</h4> 
+            <p class="is-texto-Card"> <strong>(A)</strong> .col-md == >=768px</p>
+            <p class="is-texto-Card"> <strong>(b)</strong> .col-lg == >=992px</p>
+            <p class="is-texto-Card"> <strong>(c)</strong> .col-xl == >=1200px</p>
+           
+            <div class="divInput">
+               <input type="button" value="A" onclick="errado3()" class="isBotao">
+               <input type="button" value="B" onclick="errado3()" class="isBotao">
+                <input type="button" value="N" onclick="clicou3()"  class="isBotao" >
+           </div>
+           <div class="is-resposta is-divCard" id="resposta3"> <strong>Resposta:</strong></div>    
+        </div>
+        
+        <script>
+             var resposta3 = document.getElementById('resposta3')
+           function errado3(){
+            var res = (errado.value)
+            resposta3.innerHTML = '<strong>Resposta:</strong> Que pena, opção errada!'
+           }
+            function clicou3(){
+               var res = (resposta3.value)
+                resposta3.innerHTML = '<strong>Resposta:</strong> Parabéns, voce acertou!'
+            }
+        </script>
+        
+
+    </div>
+
+<!---------------------    C A R D    0 5 -------------  C A R D    0 5--------------------->
+
+
+    <div class="is-divCard">
+        <h2 class="is-tituloCard">OP. LOGICOS</h2>
+        <div class="is-textoCard">
+            <h4 class="is-subTituloCard">TRUE || FALSE </h4> 
+            <p class="is-texto-Card"> <strong>(A)</strong> true && true == true</p>
+            <p class="is-texto-Card"> <strong>(b)</strong> false || true == true</p>
+            <p class="is-texto-Card"> <strong>(c)</strong> false && true == false</p>
+           
+            <div class="divInput">
+               <input type="button" value="TRUE" onclick="clicou4()" class="isBotao">
+               <input type="button" value="FALSE" onclick="errado4()" class="isBotao">
+                <input type="button" value="N" onclick="errado4()" class="isBotao" >
+           </div>
+           <div class="is-resposta is-divCard" id="resposta4"> <strong>Resposta:</strong></div>    
+        </div>
+        
+        <script>
+             var resposta4 = document.getElementById('resposta4')
+           function errado4(){
+            var res = (errado.value)
+            resposta4.innerHTML = '<strong>Resposta:</strong> Que pena, opção errada!'
+           }
+            function clicou4(){
+               var res = (resposta4.value)
+                resposta4.innerHTML = '<strong>Resposta:</strong> Parabéns, voce acertou!'
+            }
+        </script>
+        
+
+    </div>
+
+<!---------------------    C A R D    0 6 -------------  C A R D    0 6--------------------->
+
+
+    <div class="is-divCard">
+        <h2 class="is-tituloCard">FLEX-BOX</h2>
+        <div class="is-textoCard">
+            <h4 class="is-subTituloCard">Qual opção invalida?</h4> 
+            <p class="is-texto-Card"> <strong>(A)</strong> display: flex;</p>
+            <p class="is-texto-Card"> <strong>(b)</strong> flex-direction:row;</p>
+            <p class="is-texto-Card"> <strong>(c)</strong> flex-wrap:nowrap;</p>
+           
+            <div class="divInput">
+               <input type="button" value="N" onclick="clicou5()" class="isBotao">
+               <input type="button" value="A" onclick="errado5()"onclick="clicou2()" class="isBotao">
+                <input type="button" value="B" onclick="errado5()" class="isBotao" >
+           </div>
+           <div class="is-resposta is-divCard" id="resposta5"> <strong>Resposta:</strong></div>    
+        </div>
+        
+        <script>
+             var resposta5 = document.getElementById('resposta5')
+           function errado5(){
+            var res = (errado.value)
+            resposta5.innerHTML = '<strong>Resposta:</strong> Que pena, opção errada!'
+           }
+            function clicou5(){
+               var res = (resposta2.value)
+                resposta5.innerHTML = '<strong>Resposta:</strong> Parabéns, voce acertou!'
+            }
+        </script>
+        
+
+    </div>
+   </div>
+
+
+
+    
+</main> 
+
+</body>
+</html>
